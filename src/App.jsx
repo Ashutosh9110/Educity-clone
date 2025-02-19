@@ -8,6 +8,7 @@ import Campus from "./components/campus/Campus";
 import Contact from "./components/contact/Contact";
 import Programs from "./components/programs/Programs";
 import Testimonials from "./components/testimonials/Testimonials";
+import VideoPlayer from "./components/videoPlayer/VideoPlayer";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+        <VideoPlayer playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }
