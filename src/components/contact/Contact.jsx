@@ -45,15 +45,15 @@ function Contact() {
                 <ul>
                     <li>
                         <img src={mailIcon} alt="" />
-                        work.withashutosh1807@gmail.com
+                        work.with.ashutosh.com
                     </li>
                     <li>
                         <img src={phoneIcon} alt="" />
-                        +91 6386175405
+                        +91 9871437696
                     </li>
                     <li>
                         <img src={locationIcon} alt=" " />
-                        Noida, Uttar Pradesh, India
+                        Delhi, India
                     </li>
                 </ul>
             </div>

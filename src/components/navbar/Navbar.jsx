@@ -26,7 +26,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link to="programs" smooth={true} offset={-260} duration={500}>
-                        Pragram
+                        Program
                     </Link>
                 </li>
                 <li>
@@ -45,7 +45,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="Contact" smooth={true} offset={-260} duration={500} className="btn">Contancts</Link>
+                    <Link to="Contact" smooth={true} offset={-260} duration={500} className="btn">Contact us</Link>
                 </li>
             </ul>
             <img src={menuIcon} className="menuIcon" onClick={toggleMenu} />

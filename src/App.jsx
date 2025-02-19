@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-
 import About from "./components/about/About";
 import Title from "./components/title/title";
 import Campus from "./components/campus/Campus";
@@ -9,9 +8,11 @@ import Contact from "./components/contact/Contact";
 import Programs from "./components/programs/Programs";
 import Testimonials from "./components/testimonials/Testimonials";
 import VideoPlayer from "./components/videoPlayer/VideoPlayer";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
+  const [playState, setPlayState] = useState(false)
   return (
     <div>
       <Navbar />
